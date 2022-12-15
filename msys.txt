@@ -1,0 +1,94 @@
+
+ekate@LAPTOP-P8IN7T1R MINGW64 ~
+$ gcc
+gcc.exe: fatal error: no input files
+compilation terminated.
+
+ekate@LAPTOP-P8IN7T1R MINGW64 ~
+$ cd D:\6 семестр\ОС\LR2
+bash: cd: слишком много аргументов
+
+ekate@LAPTOP-P8IN7T1R MINGW64 ~
+$ cd /d/6 семестрОС/LR2
+bash: cd: слишком много аргументов
+
+ekate@LAPTOP-P8IN7T1R MINGW64 ~
+$ cd '/d/6 семестрОС/LR2'
+bash: cd: /d/6 семестрОС/LR2: No such file or directory
+
+ekate@LAPTOP-P8IN7T1R MINGW64 ~
+$ cd /d
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d
+$ ls
+'$RECYCLE.BIN'      'Huawei Share'
+'3 семестр'          pagefile.sys
+'4 семестр'         'Program files'
+'5 семестр'         'System Volume Information'
+'6 семестр'          UDS
+ ASMART              vecjh
+ C7_M3               WUDownloadCache
+ CA_LIC              y98eJpUDR0OGTDlZu9fG_agile-planner-2020.pdf
+ Config.Msi         'Танцевальный коллектив'
+ DumpStack.log.tmp   фадина
+ gitlabLAB          'фоточка, а на ней красоточка'
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d
+$ cd 6\ семестр/
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр
+$ ls
+ WEB_7.txt  'Администрирование БД'   БЖД   ОС   Проектирование
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр
+$ cd ОС
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС
+$ cd LR2
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/LR2
+$ gcc
+gcc.exe: fatal error: no input files
+compilation terminated.
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/LR2
+$ gcc lab_two.c
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/LR2
+$ cd .. /
+bash: cd: слишком много аргументов
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/LR2
+$ cd ../
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС
+$ cd lab2
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab2
+$ gcc LR_2_1_pro.c -o LR_2_1.exe
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab2
+$ gcc LR_2_2.c -o LR_2_2.exe
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab2
+$ ^C
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab2
+$ cd ../
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС
+$ cd lab3
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab3
+$ gcc LR_3.c -o LR_3.exe
+LR_3.c: In function 'main':
+LR_3.c:41:5: warning: implicit declaration of function 'getch'; did you mean 'getc'? [-Wimplicit-function-declaration]
+   41 |     getch();
+      |     ^~~~~
+      |     getc
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab3
+$ ^C
+
+ekate@LAPTOP-P8IN7T1R MINGW64 /d/6 семестр/ОС/lab3
+$
